@@ -19,11 +19,6 @@ its own after 20 seconds.
 
 Unzip into `sdmc:/switch/`. hbmenu lists them alphabetically.
 
-## Why one NRO per language
-
-Controller input and touch both report nothing to an NRO under kaiHEN in this
-setup: the pad mask stays `0x0` and the touch count stays `0`, so an on-screen
-picker cannot be operated. hbmenu is the picker instead.
 
 ## How the write works
 
