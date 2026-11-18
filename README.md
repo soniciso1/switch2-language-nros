@@ -69,3 +69,12 @@ libounce's own `switch.specs`; that is what emits the `OUN0` block.
 | `build-all.sh` | builds all eighteen |
 | `include/lang-tag.h` | generated tag header, defaults to `en-US` |
 | `Makefile` | standard Switch build, libounce rules |
+
+## Credits
+
+Idea and reference implementation: [hrvtuirvw/switch2-language-experiment](https://github.com/hrvtuirvw/switch2-language-experiment).
+Its console runs, the MakeLanguageCode table, and the region/language readbacks are what this
+project builds on. The language codes here were confirmed against that reference.
+
+Entry chain: [pepsipu/ns2jb](https://github.com/pepsipu/ns2jb).
+Switch 2 devkit: [ouncebrew/ounce-devkit](https://github.com/ouncebrew/ounce-devkit) and [ouncebrew/libounce](https://github.com/ouncebrew/libounce).
